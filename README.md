@@ -133,3 +133,7 @@ npm run devs
 -- Start test server
 npm run devts
 ```
+
+### TEAM
+
+Ekerot, Tomas and Beppe
