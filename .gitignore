@@ -1,0 +1,24 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# IDE - VSCode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# misc
+**/*.log
+
+# Vagrant
+.vagrant
+
+#System Files
+.DS_Store
+Thumbs.db
+
+#Firebase
+.firebaserc
+database.rules.json
+firebase.json

@@ -1,0 +1,29 @@
+{
+  "pi": {
+    "name": "WoT Pi",
+    "description": "Ultimate texting services - a WoT device.",
+    "sensors": "none",
+    "actuators": {
+      "lcd": {
+        "name": "lcd",
+        "size": "2x16",
+        "gpio": {
+          "rs": 25,
+          "e": 24,
+          "data": [
+            23,
+            17,
+            18,
+            22
+          ],
+          "cols": 16,
+          "rows": 2
+        }
+      },
+      "camera": {
+        "name": "camera",
+        "port": "camera"
+      }
+    }
+  }
+}

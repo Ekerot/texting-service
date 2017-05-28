@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+
+  <title>The A-Team: Ultimate texting services</title>
+  <meta name="description" content="The A-Team: Ultimate pager system">
+  <meta name="author" content="The A-Team">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+</head>
+
+<body>
+  <div class="container-head center-block">
+    <div class="col s12 m6 center-align">
+      <h2 class="thin">The A-Team brings you: Ultimate texting services</h2>
+    </div>
+  </div>
+
+  <div class="container-form center-block">
+    <div class="col s12 m6 center-align center-block">
+      <div class="card blue-grey brown lighten-3, z-depth-5">
+        <div class="card-content white-text">
+          <span class="card-title">Take photo</span>
+          <form class="form-photo" action="javascript:sendMessage();">
+            <label for="text1">What is your name?</label>
+            <input type="text" id="text1" maxlength="16" required />
+            <br>
+            <label for="text2">What is your surname?</label>
+            <input type="text" id="text2" maxlength="16" required />
+            <br>
+            <button id="submit" type="submit" class="btn btn-warning btn-lg">Send</button>
+          </form>
+        </div>
+        <p>
+      </div>
+    </div>
+  </div>
+  <div id="image-div"></div>
+
+  <div class="container-card">
+    <div class="row">
+      <div class="center-align">
+        <div class="card">
+          <div class="card-image">
+            <img id="text-image-response" src="https://s-media-cache-ak0.pinimg.com/originals/06/c0/a2/06c0a26d928a23839aac1fcf21ce198f.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading-spinner" class="hide-spinner loading">Loading&#8230;</div>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
